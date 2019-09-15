@@ -1,0 +1,3 @@
+#Set your language file here
+#Don't forget to place your language File into "plugins/SrEssentials/languages/
+language: "german.yml"

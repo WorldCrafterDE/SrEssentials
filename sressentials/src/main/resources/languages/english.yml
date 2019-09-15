@@ -1,0 +1,18 @@
+#Welcome to our Plugin called SrEssentials
+#At any errors, please report them us
+#
+#Credits: 
+#
+#Meanings:
+#%PLAYER% = Playername; %VALUE% = Value for permissions, Names, stuffs...
+#%PREFIX% = prefix;
+
+Prefix: "&7| &e&lSr&eEssentials&8:&7"
+No-Permissions: "%prefix% &cYou don't have permissions for this command."
+Not-Online: "%prefix% &cThe player &e%player% %cis not online."
+Syntax-Error: "%prefix% &cSyntax Error. The usage: &e"
+
+#Gamemode
+Set-Gamemode-Self: "%prefix% Now, you are in gamemode &e%value%."
+Set-Gamemode-Other: "%prefix% Now, the player &e%player% %7is in gamemode &e%value%."
+Set-Gamemode-ByOther: "%prefix% Now, you are in gamemode &e%value%."
