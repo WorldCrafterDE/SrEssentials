@@ -1,5 +1,5 @@
 name: SrEssentials
-author: PAS123 und ClientConnection von WorldCrafter
+author: PAS123 und ClientConnection at WorldCrafter
 version: 0.1
 main: de.worldcrafter.sressentials.SrEssentials
 website: https://worldcrafter.de/
@@ -10,7 +10,6 @@ commands:
   teleport:
   tph:
   tphere:
-  tpa: 
   spawn:
   warp: 
   mwarp:

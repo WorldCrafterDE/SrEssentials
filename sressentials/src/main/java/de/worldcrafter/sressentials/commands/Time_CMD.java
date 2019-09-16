@@ -73,6 +73,7 @@ public class Time_CMD implements CommandExecutor, SrEssentialsPermissions {
 			player.sendMessage(lm.noPermissions.toString());
 			return false;
 		}
+		
 		if(!player.hasPermission(SUPER_PERM) && !player.hasPermission(TIME_SPAM_BYPASS)) {
 			if(noSpam.containsKey(player)) {
 				final Long time = noSpam.get(player);

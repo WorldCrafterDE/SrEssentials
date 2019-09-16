@@ -26,6 +26,6 @@ public class ConfigHandler {
 	}
 	
 	public Long getTimeAntiSpamTime() {
-		return this.timeAntiSpamTime;
+		return this.timeAntiSpamTime + System.currentTimeMillis();
 	}
 }

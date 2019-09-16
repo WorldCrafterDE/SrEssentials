@@ -2,6 +2,9 @@ package de.worldcrafter.sressentials.language;
 
 import org.bukkit.entity.Player;
 
+import de.worldcrafter.sressentials.SrEssentials;
+import net.md_5.bungee.api.ChatColor;
+
 /**
 * @Author ClientConnection
 * @Project sressentials
@@ -14,7 +17,11 @@ public class LanguageMessage {
 	private String name;
 	
 	public LanguageMessage(final String name) {
-		this.name = name;
+		String result = SrEssentials.getLanguageManager().getConfig().getString(name);
+		result = ChatColor.translateAlternateColorCodes('&', name);
+		if(SrEssentials.getInstance().prefixSet)
+		this.name = result.replaceAll("%prefix%", SrEssentials.getLanguageManager().prefix.toString());
+		else this.name = result;
 	}
 	
 	public String setPlayerValue(final Player player, final Object obj) {

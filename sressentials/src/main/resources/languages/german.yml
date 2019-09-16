@@ -7,10 +7,13 @@
 #%player% = Spielername; %value% = Wert fuer Rechte, Namen, sonstiges...
 #%prefix% = prefix;
 
+
 Prefix: "&7| &e&lSrEssentials &8●&7"
 No-Permissions: "%prefix% &cDafuer hast du keine Berechtigung."
 Not-Online: "%prefix% &cDer Spieler &e%player% &cist nicht online."
 Syntax-Error: "%prefix% &cSyntax Error. Benutze: &e"
+Not-You: "%prefix% &cDu kannst nicht dich selbst angeben."
+Same-Player: "%prefix% &cDu kannst nicht mit dem gleichen Spieler zweimal interagieren."
 
 #Gamemode
 Set-Gamemode-Self: "%prefix% Du hast dich in den Gamemode &e%value% &7gesetzt."
@@ -31,3 +34,9 @@ Time-NoSpam: "%prefix% &cDu darfst diesen Befehl nicht spammen. Du kannst wieder
 Time-Set-To-Day: "%prefix% Die Zeit wurde auf &eTag &7gestellt."
 Time-Set-To-Night: "%prefix% Die Zeit wurde auf &eNacht &7gestellt."
 Time-Set-To-X: "%prefix% Die Zeit wurde auf &e%value% &7gestellt."
+
+#Teleport
+Teleport-To-Player: "%prefix% Du wurdest zum Spieler &e%value% &7teleportiert."
+Teleport-A-Player-To-Player: "%prefix% Du hast den Spieler &e%player% &7zum Spieler &e%value%."
+Teleport-To-Location: "%prefix% Du wurdest zu der Position &e%value% &7teleportiert."
+Teleport-A-Player-To-Location: "%prefix% Du hast den Spieler &e%player% &7zum Spieler &e%value%."

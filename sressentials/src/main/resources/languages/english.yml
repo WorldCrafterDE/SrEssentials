@@ -11,6 +11,8 @@ Prefix: "&7| &e&lSrEssentials &8●&7"
 No-Permissions: "%prefix% &cYou don't have permissions for this action."
 Not-Online: "%prefix% &cThe player &e%player% &cis not online."
 Syntax-Error: "%prefix% &cSyntax Error. The usage: &e"
+Not-You: "%prefix% &cYou can't act with your self at this action."
+Same-Player: "%prefix% &cYou can't act with the same player twice."
 
 #Gamemode
 Set-Gamemode-Self: "%prefix% You are now in Gamemode &e%value%."
@@ -31,3 +33,9 @@ Time-NoSpam: "%prefix% &cYou are not allowed to spam this command. You can write
 Time-Set-To-Day: "%prefix% The time was set to &eday."
 Time-Set-To-Night: "%prefix% The time was set to &enight."
 Time-Set-To-X: "%prefix% The time was set to &e%value%."
+
+#Teleport
+Teleport-To-Player: "%prefix% You've teleported to the player &e%player%."
+Teleport-A-Player-To-Player: "%prefix% You've teleported the player &e%player% &7to the player &e%value%."
+Teleport-To-Location: "%prefix% You've teleported to the location &e%value%"
+Teleport-A-Player-To-Location: "%prefix% You've teleported the Player &e%player% &7to &e%value%."

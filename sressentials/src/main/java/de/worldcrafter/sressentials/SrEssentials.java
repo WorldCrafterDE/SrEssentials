@@ -9,6 +9,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import de.worldcrafter.sressentials.commands.Gamemode_CMD;
 import de.worldcrafter.sressentials.commands.Time_CMD;
 import de.worldcrafter.sressentials.commands.Workbench_CMD;
+import de.worldcrafter.sressentials.commands.teleport.TeleportHere_CMD;
+import de.worldcrafter.sressentials.commands.teleport.Teleport_CMD;
 import de.worldcrafter.sressentials.config.ConfigManager;
 import de.worldcrafter.sressentials.language.LanguageManager;
 import de.worldcrafter.sressentials.utils.ConfigHandler;
@@ -27,17 +29,17 @@ public class SrEssentials extends JavaPlugin {
 	private static ConfigManager configManager;
 	private static LanguageManager languageManager;
 	private static ConfigHandler configHandler;
+	public boolean prefixSet = false;
 	
 	public void onEnable() {
 		logger = Bukkit.getLogger();
-		logger.log(Level.INFO, "Das Plugin wird gestartet....");
 		try {
 			init();
 			register();
-			logger.log(Level.FINE, "Das Plugin wurde erfolgreich geladen!");
+			logger.log(Level.FINE, "[SrEssentials] succesfully enabled!");
 		} catch(final Exception exc) {
 			exc.printStackTrace();
-			logger.log(Level.SEVERE, "Das Plugin konnte nicht erfolgreich geladen werden. Bitte melde diesen Fehler umgehend.");
+			logger.log(Level.SEVERE, "[SrEssentials] could not loaded succesfully enabled. Please report this error!");
 		}
 	}
 
@@ -55,6 +57,10 @@ public class SrEssentials extends JavaPlugin {
 		this.getCommand("wb").setExecutor(new Workbench_CMD());
 		this.getCommand("time").setExecutor(new Time_CMD());
 		this.getCommand("zeit").setExecutor(new Time_CMD());
+		this.getCommand("tp").setExecutor(new Teleport_CMD());
+		this.getCommand("teleport").setExecutor(new Teleport_CMD());
+		this.getCommand("tph").setExecutor(new TeleportHere_CMD());
+		this.getCommand("tphere").setExecutor(new TeleportHere_CMD());
 	}
 	
 	public static ConfigManager getConfigManager() {

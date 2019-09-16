@@ -19,5 +19,8 @@ public interface SrEssentialsPermissions {
 	final String TIME_NIGHT = PERMPREFIX + "time.night";
 	final String TIME_SPAM_BYPASS = PERMPREFIX + "time.spam.bypass";
 	
+	final String TELEPORT_SELF_TO_OTHER = PERMPREFIX + "teleport.self.other";
+	final String TELEPORT_OTHER_TO_OTHER = PERMPREFIX + "teleport.other.other";
+	
 	final String SUPER_PERM = PERMPREFIX + "*";
 }
