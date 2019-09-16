@@ -4,15 +4,30 @@
 #Credits: 
 #
 #Meanings:
-#%PLAYER% = Playername; %VALUE% = Value for permissions, Names, stuffs...
-#%PREFIX% = prefix;
+#%player% = Playername; %value% = Value for permissions, Names, stuffs...
+#%prefix% = prefix;
 
-Prefix: "&7| &e&lSr&eEssentials&8:&7"
-No-Permissions: "%prefix% &cYou don't have permissions for this command."
-Not-Online: "%prefix% &cThe player &e%player% %cis not online."
+Prefix: "&7| &e&lSrEssentials &8●&7"
+No-Permissions: "%prefix% &cYou don't have permissions for this action."
+Not-Online: "%prefix% &cThe player &e%player% &cis not online."
 Syntax-Error: "%prefix% &cSyntax Error. The usage: &e"
 
 #Gamemode
-Set-Gamemode-Self: "%prefix% Now, you are in gamemode &e%value%."
-Set-Gamemode-Other: "%prefix% Now, the player &e%player% %7is in gamemode &e%value%."
-Set-Gamemode-ByOther: "%prefix% Now, you are in gamemode &e%value%."
+Set-Gamemode-Self: "%prefix% You are now in Gamemode &e%value%."
+Set-Gamemode-Other: "%prefix% The player &e%player% &7is now in Gamemode &e%value%."
+Set-Gamemode-ByOther: "%prefix% You are now in Gamemode &e%value%."
+
+#Workbench
+Opened-Workbench: "%prefix% You opened the Workbench."
+
+#Enderchest
+Opened-Enderchest: "%prefix% You opened your Enderchest."
+
+#Time
+Time-Day: "%prefix% You set the time to &eday."
+Time-Night: "%prefix% You set the time to &enight."
+Time-X: "%prefix% You set the time to &e%value%."
+Time-NoSpam: "%prefix% &cYou are not allowed to spam this command. You can write in &e%value% seconds."
+Time-Set-To-Day: "%prefix% The time was set to &eday."
+Time-Set-To-Night: "%prefix% The time was set to &enight."
+Time-Set-To-X: "%prefix% The time was set to &e%value%."

@@ -10,8 +10,14 @@ package de.worldcrafter.sressentials.utils;
 public interface SrEssentialsPermissions {
 
 	final String PERMPREFIX = "essentials.";
-	public final String GAMEMODE_SELF = PERMPREFIX + "gamemode.self";
-	public final String GAMEMODE_OTHER = PERMPREFIX + "gamemode.other";
+	final String GAMEMODE_SELF = PERMPREFIX + "gamemode.self";
+	final String GAMEMODE_OTHER = PERMPREFIX + "gamemode.other";
 	
-	public final String SUPER_PERM = PERMPREFIX + "*";
+	final String WORKBENCH_SELF = PERMPREFIX + "workbench.use";
+	
+	final String TIME_DAY = PERMPREFIX + "time.day";
+	final String TIME_NIGHT = PERMPREFIX + "time.night";
+	final String TIME_SPAM_BYPASS = PERMPREFIX + "time.spam.bypass";
+	
+	final String SUPER_PERM = PERMPREFIX + "*";
 }

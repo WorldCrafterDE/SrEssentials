@@ -4,11 +4,11 @@
 #Credits: 
 #
 #Bedeutungens:
-#%PLAYER% = Spielername; %VALUE% = Wert fuer Rechte, Namen, sonstiges...
-#%PREFIX% = prefix;
+#%player% = Spielername; %value% = Wert fuer Rechte, Namen, sonstiges...
+#%prefix% = prefix;
 
-Prefix: "&7| &e&lSr&eEssentials&8:&7"
-No-Permissions: "%prefix% &cFuer diesen Befehl hast du keine Berechtigung."
+Prefix: "&7| &e&lSrEssentials &8●&7"
+No-Permissions: "%prefix% &cDafuer hast du keine Berechtigung."
 Not-Online: "%prefix% &cDer Spieler &e%player% &cist nicht online."
 Syntax-Error: "%prefix% &cSyntax Error. Benutze: &e"
 
@@ -16,3 +16,18 @@ Syntax-Error: "%prefix% &cSyntax Error. Benutze: &e"
 Set-Gamemode-Self: "%prefix% Du hast dich in den Gamemode &e%value% &7gesetzt."
 Set-Gamemode-Other: "%prefix% Du hast den Spieler &e%player% %7in den Gamemode &e%value% &7gesetzt."
 Set-Gamemode-ByOther: "%prefix% Du wurdest in den Gamemode &e%value% &7gesetzt."
+
+#Workbench
+Opened-Workbench: "%prefix% Du hast den Craftingtable geöffnet."
+
+#Enderchest
+Opened-Enderchest: "%prefix% Du hast die Enderchest geöffnet."
+
+#Time
+Time-Day: "%prefix% Du hast die Zeit auf &eTag &7gestellt."
+Time-Night: "%prefix% Du hast die Zeit auf &eNacht &7gestellt."
+Time-X: "%prefix% Du hast die Zeit auf &e%value% &7gestellt."
+Time-NoSpam: "%prefix% &cDu darfst diesen Befehl nicht spammen. Du kannst wieder in Sekunden &e%value% &cschreiben."
+Time-Set-To-Day: "%prefix% Die Zeit wurde auf &eTag &7gestellt."
+Time-Set-To-Night: "%prefix% Die Zeit wurde auf &eNacht &7gestellt."
+Time-Set-To-X: "%prefix% Die Zeit wurde auf &e%value% &7gestellt."

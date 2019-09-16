@@ -1,3 +1,8 @@
 #Set your language file here
 #Don't forget to place your language File into "plugins/SrEssentials/languages/
 language: "german.yml"
+
+#Set your time in seconds
+#This anti-spam protection is just for the command
+#/time day/night/time
+Time-no-Spam: 300
